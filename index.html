@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>David Peleteria</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4F4kuhGFx00_SwuWP8-tx8REj1Fh_Hkk" async defer></script> <!-- Sustituye YOUR_API_KEY con tu clave de API -->
+      <script>
+          function initMap() {
+              var location = { lat: 3.4043415388964116, lng: -76.51298623613151 }; // Coordenadas de Cali, República de Israel
+              var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 15,
+                  center: location
+              });
+              var marker = new google.maps.Marker({
+                  position: location,
+                  map: map
+              });
+          }
+      </script>
+
+</head>
+<!-- body -->
+
+<body onload="initMap()" class="main-layout">
+
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+
+         <div class="header_bo">
+            <div class="container">
+
+               <div class="col-md-9 col-sm-7">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="#banner_main"> Inicio </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#about"> Nosotros </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#service">servicios</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact"> Visítanos </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+
+   <!-- banner -->
+   <section class="banner_main" id="banner_main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7 col-lg-7">
+               <div class="text-bg">
+                  <h1>David<br> &emsp; Peletería</h1>
+                  <span>Desde 1999!</span>
+                  <p>Insumos para calzado ¡Y mucho más!</p>
+               </div>
+            </div>
+            <div class="col-md-5 col-lg-5">
+               <!--        <div class="ban_img">
+                  <figure><img src="images/ba_ing.png" alt="#" /></figure>
+               </div> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end banner -->
+
+
+   <!-- about section -->
+   <section id="about" class="about">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12 col-lg-7">
+               <div class="about_box">
+                  <div class="titlepage">
+                     <h2><strong class="titlemain">Sobre Nosotros</strong><br> TU PELETERÍA DE CONFIANZA DESDE 1999</h2>
+                  </div>
+                  <h3>TODOS LOS SERVICIOS QUE NECESITAS EN UN SOLO LUGAR</h3>
+                  <span>MEJORA EL CUIDADO Y ESTILO DE TUS PRODUCTOS DE CUERO <br> CON NUESTROS EXPERTOS</span>
+                  <p>Es bien sabido que un cliente aprecia la calidad y el buen servicio. En nuestra peletería, nos
+                     enfocamos en ofrecer lo mejor en reparación de calzado,
+                     en la calidad de nuestros insumos y la variedad de nuestros productos para que tengas todo en un
+                     solo lugar.</p>
+                  <span class="try">PRUEBA NUESTROS PRODUCTOS Y SERVICIOS AHORA</span>
+               </div>
+
+            </div>
+            <div class="col-md-12 col-lg-5">
+               <div class="about_img">
+                  <figure><img src="images/about_img2.jpg" alt="#" /></figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- about section -->
+
+
+   <!-- service section -->
+   <div id="service" class="service">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7">
+               <div class="text-ser">
+                  <h2><strong class="title-ser">SERVICIOS</strong><br>TODO EN LO QUE PODEMOS AYUDARTE</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 col-sm-6">
+               <div id="ho_color" class="service_box">
+                  <img src="images/services/icon-calzado.png" alt="#" />
+                  <h3>Arreglo de calzado</h3>
+                  <p>Arreglamos cualquier tipo de calzado, bolsos, billeteras, etc</p>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+               <div id="ho_color" class="service_box">
+                  <img src="images/services/icon-máquina.png" alt="#" />
+                  <h3>Servicio de máquinas</h3>
+                  <p>Ofrecemos servicio de máquinas</p>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+               <div id="ho_color" class="service_box">
+                  <img src="images/services/icon-cuero.png" alt="#" />
+                  <h3>Insumos para cuero</h3>
+                  <p>Vendemos insumos para el cuidado de tus productos en cuero</p>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+               <div id="ho_color" class="service_box">
+                  <img src="images/services/icon-bisuteria.png" alt="#" />
+                  <h3>Bisutería</h3>
+                  <p>Variedad de productos para la bisutería</p>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+               <div id="ho_color" class="service_box">
+                  <img src="images/services/icon-plus.png" alt="#" />
+                  <h3>Y mucho más</h3>
+                  <p>Recuerda escribirnos y con gusto te responderemos</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <!-- service section -->
+   <!-- portfolio -->
+   <!-- <div class="portfolio">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 ">
+               <div class="titlepage">
+                  <h2><strong class="yellow">PORTFOLIO</strong><br> CHOOSE A PROFESSIONAL DESIGN</h2>
+                  <span>Websites</span>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distrib</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="myCarousel" class="carousel slide portfolio_Carousel " data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <div class="carousel-caption ">
+                     <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf1.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf2.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf3.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf4.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <a class="read_more" href="#">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf1.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf2.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf3.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf4.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <a class="read_more" href="#">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf1.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf2.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf3.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="portfolio_img">
+                              <img src="images/potf4.jpg" alt="#" />
+                              <div class="middle">
+                                 <div class="text2">View More</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <a class="read_more" href="#">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+         </a>
+      </div>
+   </div> -->
+   <!-- end portfolio section -->
+
+
+   <!-- business  section -->
+   <div class="business">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7">
+               <div class="titlepage">
+                  <h2><strong class="titlemain">NUESTRO DIFERENCIADOR</strong><br>CALIDAD Y COMPROMISO</h2>
+                  <p>Manejamos la mejor calidad en cada uno de nuestros servicios y productos. Contamos con experiencia
+                     por más de 25 años. </p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 col-sm-6">
+               <div id="ho_color" class="business_box">
+                  <i><img src="images/calidad/icon-calidad.png" alt="#" /></i>
+                  <h3>100%</h3>
+                  <p>CALIDAD </p>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div id="ho_color" class="business_box">
+                  <i><img src="images/calidad/icon-garantía.png" alt="#" /></i>
+                  <h3>100%</h3>
+                  <p>GARANTÍA</p>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div id="ho_color" class="business_box">
+                  <i><img src="images/calidad/icon-years.png" alt="#" /></i>
+                  <h3>25 AÑOS</h3>
+                  <p>EXPERIENCIA</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end business  section -->
+
+
+   <!-- contact  section -->
+      <div id="contact" class="contact">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="titlepage">
+                         <h2><strong class="titlemain">VISÍTANOS</strong><br>Siempre a tu servicio</h2>
+                     </div>
+                 </div>
+             </div>
+             <div class="map-container">
+                 <div id="map"></div>
+             </div>
+         </div>
+     </div>
+   <!-- end contact  section -->
+
+
+   <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <a class="logo2" href="#"><img src="images/loogo2.png" alt="#" /></a>
+               </div>
+
+               <div class="col-lg-6 col-md-2 col-sm-2">
+                  <h3>Contact Us</h3>
+                  <ul class="location_icon">
+                     <li><a href="https://maps.app.goo.gl/gZXSxtkP6JiK4qYdA"><i class="fa fa-map-marker"
+                              aria-hidden="true"></i></a> Cali, Colombia
+                        <br> Cra 46 # 44-45 <br> República de Israel
+                     </li>
+                     <li><a><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>Celular<br>+57 3195422120
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="col-lg-6 col-md-2 col-sm-2">
+                  <h3>Menú</h3>
+                  <ul class="link_icon">
+                     <li> <a href="#banner_main"> </i>Inicio</a></li>
+                     <li> <a href="#about"> </i>Nosotros</a></li>
+                     <li> <a href="#service"> </i>Services</a></li>
+                     <li> <a href="#contact"></i>Visítanos</a></li>
+                  </ul>
+               </div>
+
+            </div>
+         </div>
+
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <p>© 2024 All Rights Reserved.<a href="https://html.design/"> Free html Templates</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+</body>
+
+</html>
