@@ -443,7 +443,7 @@ ul.conta_icon li a:hover {
 .header_bo {
      background-color: #0c2468;
      width: 100%;
-     height: 70px;
+     height: 60px;
 }
 
 
@@ -460,7 +460,7 @@ ul.conta_icon li a:hover {
      margin: 0 8px;
      color: #ffffff;
      font-size: 17px;
-     line-height: 20px;
+     line-height: 10px;
      text-transform: uppercase;
 }
 
